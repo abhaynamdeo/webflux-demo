@@ -14,7 +14,7 @@ public class FakeCourseRepository implements CourseRepository{
 
 
     List<Course> courses = Arrays.asList(new Course(0, "Java for beginners", new Author(1, "New", "Bee")),
-            new Course(1, "Java for pro", new Author(2, "Pro", "Bee")),
+            new Course(1, "java", new Author(2, "Pro", "Bee")),
             new Course(2, "Java for all", new Author(3, "ALL", "Bee")),
             new Course(3, "Java for beginners", new Author(4,"New", "Bee"))
     );
